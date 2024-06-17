@@ -1,0 +1,61 @@
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  transition: background-color 0.3s ease;
+  &:hover {
+    background-color: #45a049;
+  }
+}
+
+.statistics {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.statistics p {
+  margin: 5px 0;
+}
+
+.section {
+  margin: 0 auto;
+}
+
+.section h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.notification {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #ff0000;
+}
+
+
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 36px;
+  color: #333;
+}
