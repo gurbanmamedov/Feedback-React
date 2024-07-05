@@ -4,6 +4,7 @@ import FeedbackOptions from "./components/FeedbackOptions";
 import Statistics from "./components/Statistics";
 import Section from "./components/Section";
 import Notification from "./components/Notification";
+import "./App.css";
 
 const App = () => {
   const [feedback, setFeedback] = useState({ good: 0, neutral: 0, bad: 0 });
